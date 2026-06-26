@@ -57,3 +57,5 @@ SELECT
 FROM Clientes c
 LEFT JOIN Compras co ON c.ID = co.ClienteID
 GROUP BY c.nomeCliente;
+SELECT * FROM Clientes; 
+SELECT * FROM Compras; 
